@@ -201,6 +201,9 @@ body {
 .content li {
   font-size: clamp(13px, 3.6vw, 15px);
 }
+.content p {
+  text-align: justify;
+}
 .content .note {
   margin-top: var(--space-6);
   font-weight: 700;
