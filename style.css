@@ -68,6 +68,7 @@ body {
   width: 100%;
   text-align: center;
   margin-bottom: 2rem;
+  text-transform: uppercase;
 
 }
 
@@ -157,7 +158,7 @@ body {
 }
 .item .km {
   font-family: "Kantumruy Pro", system-ui;
-  font-size: clamp(16px, 4.3vw, 18px);
+  font-size: clamp(13.6px, 3.66vw, 15.3px);
   font-weight: 500;
 }
 
@@ -174,16 +175,28 @@ body {
 }
 .bullets {
   margin: 0;
-  padding-left: 18px;
+  padding-left: 0;
+  list-style: none;
   font-family: "Kantumruy Pro", system-ui;
 }
 
 .bullets li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+  font-size: 0.9em;
 }
 
 .dosage {
-  font-weight: 700;
+  font-weight: 500;
+  font-family: "Kantumruy Pro", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  margin-bottom: 0px;
+}
+.dosage .en {
+  font-family: "Manrope", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+.title-dosage {
+  font-weight: 800 !important;
 }
 
 .content {
@@ -215,3 +228,14 @@ body {
   background: #1E4E9C;
 }
 
+.en-dosage {
+  font-weight: 800;
+}
+
+.bold-text {
+  font-weight: 800;
+}
+
+.footer {
+  font-size: 0.8rem;
+}
