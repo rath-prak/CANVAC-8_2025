@@ -50,7 +50,7 @@ body {
   padding-block: var(--space-6);
 }
 .topbar img {
-  width: clamp(140px, 40vw, 180px);
+  width: clamp(189px, 54vw, 243px);
   height: auto;
 }
 
