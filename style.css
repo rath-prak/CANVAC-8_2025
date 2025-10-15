@@ -1,6 +1,6 @@
 :root {
-  --bg: #133588;
-  --white: #ffffff;
+  --bg: #ffffff;
+  --white: #1f2937;
   --gold: #ffc52e; /* approximate poster yellow */
   --blue-box: #2c66c3; /* light-blue panels */
   --blue-box-light: #3b78d6;
@@ -61,9 +61,9 @@ body {
 }
 .ribbon__box {
   background: #2e64b8;
-  color: var(--white);
+  color: #ffffff;
   padding: 12px 18px;
-  border-radius: 3px;
+  border-radius: 2px;
   font-weight: 700;
   width: 100%;
   text-align: center;
@@ -111,7 +111,7 @@ body {
 }
 
 .hero__note {
-  color: white;
+  color: var(--white);
   font-weight: 700;
   font-size: clamp(14px, 3.9vw, 16px);
   margin: 0 0 var(--space-6);
@@ -122,13 +122,14 @@ body {
   font-family: "Koulen", system-ui;
   font-size: clamp(20px, 6vw, 26px);
   margin: 0 0 var(--space-4);
-  color: var(--gold);
+  color: #133588;
 }
 
 .card { 
   background: #1E4E9C;
-  border-radius: 6px; 
+  border-radius: 2px; 
   padding: var(--space-5); 
+  color: #ffffff;
   /* border: 1px solid var(--blue-outline);  */
 
 }
@@ -165,8 +166,9 @@ body {
 .callout {
   background: #2d6cb4;
   margin-top: var(--space-6);
-  border-radius: 6px;
+  border-radius: 2px;
   padding: var(--space-5);
+  color: #ffffff;
 }
 .callout__title {
   margin: 0 0 var(--space-3);
@@ -202,6 +204,11 @@ body {
 .content {
   margin-top: var(--space-6);
 }
+
+h1, h2 {
+  color: #133588;
+}
+
 .content h3 {
   margin: var(--space-6) 0 var(--space-2);
   font-size: clamp(16px, 4.2vw, 18px);
@@ -224,8 +231,9 @@ body {
 
 .note {
   padding: 1rem;
-  border-radius: 6px;
-  background: #1E4E9C;
+  border-radius: 2px;
+  background: lightgrey;
+  color: #1f2937;
 }
 
 .en-dosage {
@@ -238,4 +246,8 @@ body {
 
 .footer {
   font-size: 0.8rem;
+}
+
+p {
+  margin-top: 0.5rem
 }
